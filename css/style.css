@@ -16,4 +16,19 @@ h1, h2, h3, h4, h5, h6{
     max-width: 100%;
 }
 
+.container{
+    height: 100%;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
 
+.hero {
+  background: url('/images/exp-hero.jpg') no-repeat center;
+  background-position:;
+  height: 100vh;
+width: inherit;
+  background-size:cover;
+
+   
+}
