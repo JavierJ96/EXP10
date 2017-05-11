@@ -23,12 +23,9 @@ h1, h2, h3, h4, h5, h6{
     padding: 0;
 }
 
-.hero {
-  background: url('/images/exp-hero.jpg') no-repeat center;
-  background-position:;
+.hero{
+  background: url(../images/exp-hero.jpg) no-repeat center;
   height: 100vh;
-width: inherit;
-  background-size:cover;
-
-   
+  width: inherit;
+  background-size:cover;  
 }
