@@ -165,12 +165,12 @@ header li{
 
 .ending .img-fluid{
   max-width: 60%;
-  padding-top: 3%;
+ margin-top: 11%;
 }
 
 .ending h1{
   padding-left: 15%;
-  padding-top: 8%;
+  margin-top: 10%;
   font-size: 350%;
   color: #167861;
 
