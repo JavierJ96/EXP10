@@ -23,7 +23,6 @@ p{
 .row{
   margin: 0; 
   height: 100vh;
-  position: relative;
 }
 
 .container{
@@ -38,6 +37,7 @@ p{
     background-size:cover;
     background-attachment: fixed;
     background-position:center; 
+    height: 100vh;
 
 }
 
