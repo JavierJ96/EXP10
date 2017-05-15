@@ -12,15 +12,15 @@ http://www.gnu.org/licenses/gpl.html
 */
 
 (function( $ ){
-	var $window = $(window);
+	var $window = $(.parallax);
 	var windowHeight = $window.height();
 
 	$window.resize(function () {
 		windowHeight = $window.height();
 	});
 
-	$.fn.parallax = function(xpos, speedFactor, outerHeight) {
-		var $this = $();
+	$.fn.parallax = function(xpos, speedFactor=, outerHeight) {
+		var $this = $(.parallax);
 		var getHeight;
 		var firstTop;
 		var paddingTop = 0;
@@ -42,7 +42,7 @@ http://www.gnu.org/licenses/gpl.html
 			
 		// setup defaults if arguments aren't specified
 		if (arguments.length < 1 || xpos === null) xpos = "50%";
-		if (arguments.length < 2 || speedFactor === null) speedFactor = 0.00;
+		if (arguments.length < 2 || speedFactor === null) speedFactor = 0.5;
 		if (arguments.length < 3 || outerHeight === null) outerHeight = true;
 		
 		// function to be called whenever the window is scrolled or resized
