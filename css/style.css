@@ -33,11 +33,10 @@ p{
 }
 
 .hero{
-    background: url(../images/exp-hero.jpg)fixed;
+    background: url(../images/exp-hero.jpg)no-repeat;
     background-size:cover;
     background-position:center; 
     height: 100%;
-
 }
 
 header h1{
