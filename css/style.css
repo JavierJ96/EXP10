@@ -33,11 +33,10 @@ p{
 }
 
 .hero{
-    background: url(../images/exp-hero.jpg);
+    background: url(../images/exp-hero.jpg)fixed;
     background-size:cover;
-    background-attachment: fixed;
     background-position:center; 
-    height: 100vh;
+    height: 100%;
 
 }
 
@@ -241,5 +240,59 @@ footer .row{
   height: auto;
 }
 
+@media (max-width:560px) {
+   .hero{
+     padding:1.5em 0%;
+     background-position: right;
+     width:100%;
+     position: fixed no-repeat;
+   }
+
+   .headlights{
+     padding:1.5em 0%;
+     float:right;
+     width:100%;
+     position: fixed no-repeat;
+   }
+
+  .inside{
+     padding:1.5em 0%;
+     float:right;
+     width:100%;
+     position: fixed no-repeat;
+   }
+
+     .back{
+     padding:1.5em 0%;
+     float:right;
+     width:100%;
+     position: fixed no-repeat;
+   }
+
+     .steering{
+     padding:1.5em 0%;
+     float:right;
+     width:100%;
+     position: fixed no-repeat;
+   }
+
+   .inside h1 {
+     width:46%;
+     text-align:left;
+     font-size: 300%;
+     display: block;
+     margin-left: 7%;
+     margin-top: 25%;
+   }
+
+   .steering h1 {
+     width:46%;
+     text-align:left;
+     font-size: 300%;
+     display: block;
+     margin-left: 20%;
+     margin-top: 25%;
+   }
+     
 
 
