@@ -10,8 +10,6 @@ html{
 }
 
 
-
-
 h1, h2, h3, h4, h5, h6{
     font-weight: 500;
     letter-spacing:1.5px;
@@ -21,10 +19,6 @@ p{
   letter-spacing: .5px;
   font-weight: 300;
   font-size: 13px;
-}
-.row{
-  margin: 0; 
-  height: 100vh
 }
 
 
@@ -39,7 +33,7 @@ p{
 }
 
 
-.parallax-image.skrollable-between {
+.parallax-image.skrollable {
     display:block;
 }
 
@@ -70,7 +64,7 @@ p{
 }
 
 .parallax-image.skrollable-between {
-    display:;
+    display:block;
 }
 
 .no-skrollr .parallax-image-wrapper {
@@ -87,9 +81,9 @@ p{
 }
 
 
-
 #page-intro{
     height: 100vh;
+    
  }
 
 #page-intro h1{
