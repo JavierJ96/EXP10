@@ -67,9 +67,9 @@ p{
 
 
 .gap {
-    background:transparent center no-repeat;
     background-size:cover;
     height:100vh;
+    color: white;
 }
 .skrollr .gap {
     background: transparent !important;
