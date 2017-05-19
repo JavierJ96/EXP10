@@ -63,13 +63,8 @@ p{
     top:0;
 }
 
-.parallax-image.skrollable-between {
-    display:block;
-}
 
-.no-skrollr .parallax-image-wrapper {
-    display:none !important;
-}
+
 
 .gap {
     background:transparent center no-repeat;
