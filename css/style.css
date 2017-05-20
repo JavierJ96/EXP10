@@ -160,14 +160,16 @@ p{
     text-align: center;
 }
 
+
 .logo{
-  display: inline-block;
-  padding-top: 2.5%;
+  display: block;
   text-align: center;
-  width: 100%;
+  padding-top: 2%
 }
 
-
+.logo .img-fluid{
+    max-width:30%;
+}
 
 
 .bottom-title{
