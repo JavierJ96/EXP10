@@ -280,9 +280,7 @@ hr{
   animation-duration: 2s;
 }  
 
-#section6 .fp-tableCell{
-    display: block;
-}
+
 
 
 /* MEDIA */
@@ -419,7 +417,7 @@ hr{
     
     .icons .img-fluid{
   max-width: 10%;
-  padding-top:3%;
+  padding-top:10%;
   padding-left: 1%;
   padding-right: 1%;
 }
@@ -431,10 +429,9 @@ hr{
   display: inline-block;
   width: 50%;
   text-align: center;
-  margin-top: 5%;
-                            
-  
+  margin-top: 10%;  
 }
+
 #section6 .button li{
     font-size: 12px;
     line-height: 3.5;
