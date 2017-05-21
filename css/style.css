@@ -26,7 +26,9 @@ p{
   height: 100vh;
 }
 
-
+.section{
+    height: 100vh;
+}
 
 
 
@@ -122,9 +124,6 @@ p{
 
 
 
-
-
-
 #section4{
     background: url(../images/exp-tail.jpg) no-repeat;
     background-size:contain;
@@ -149,7 +148,6 @@ p{
 
 
 
-
 #section5{
     background: url(../images/exp-steering.jpg);
     background-size:cover;
@@ -168,30 +166,35 @@ p{
 .logo{
   display: block;
   text-align: center;
-  padding-top: 2%
+  margin-top: 3%;
 }
 
 .logo .img-fluid{
-    max-width:30%;
+    max-width:90px;
 }
 
 
 .bottom-title{
   width: 100%;
   text-align: center;
-  padding-top: 1%;
-  padding-left: 0;
-  padding-right: 0;
+  display: block;
+    padding-top: 2%;
 }
 
+hr{
+    color: white;
+    display: block;
+    width:33%;
+    margin-top:0;
+    margin-bottom: 0;
+}
 
 #section6 .row{
-  padding-top: 2%;
+  padding-top: 1%;
 }
 
 
 #section6  .largelogo{
-  max-width: 80%;
  margin-top: 2%;
 }
 
@@ -200,6 +203,7 @@ p{
   padding-left: 15%;
   font-size: 350%;
   color: #167861;
+  line-height: 1;
 }
 
 
@@ -227,28 +231,42 @@ p{
   height: 3.2em;
   width: 20em;
   text-align: center;
+  margin-top: 4%;
 }
 
-.icons img{
-  display: inline-block;
-  width: 100;
-  padding-top: 0%;
+.icons .img-fluid{
+  max-width: 5%;
+  padding-top:2%;
   padding-left: 1%;
   padding-right: 1%;
 }
 
 
-#section6 li{
+#section6 .button li{
   list-style-type: none;
   letter-spacing: 0.5px;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 3;
-  display: block;
+  display: inline-block;
 }
 
 .footer{
     font-weight: 300;
-    display: inline-block;
+    display: block;
+    margin-top:;
+    text-align: center;
+    bottom:0;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+.footer li {
+    list-style-type: none;
+    font-weight: 300;
+    font-size: 9px;
+    display: inline;
+    
 }
 
 #section6 .row{
@@ -256,38 +274,44 @@ p{
 }
 
 
+
+ .animated.fadeInDown{
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}  
+
+#section6 .fp-tableCell{
+    display: block;
+}
+
+
 /* MEDIA */
-@media (max-width:500px) {
+@media (max-width:580px) {
    #section1{
-     padding:1.5em 0%;
      background-position: right;
      width:100%;
    
    }
 
    #section2{
-     padding:1.5em 0%;
      float:right;
      width:100%;
  
    }
 
   #section3{
-     padding:1.5em 0%;
      float:right;
      width:100%;
 
    }
 
      #section4{
-     padding:1.5em 0%;
      float:right;
      width:100%;
   
    }
 
      #section5{
-     padding:1.5em 0%;
      float:right;
      width:100%;
     
@@ -295,25 +319,26 @@ p{
 
    #section1 h1{
     font-size: 225%;
-    padding-top:10%;
+    padding-top:25%;
+    margin-left: 5%;
    }
 
    #section3 h1 {
-     width:46%;
+     width:100%;
      text-align:left;
-     font-size: 225%;
+     font-size: 200%;
      display: block;
-     margin-left: 7%;
-     margin-top: 20%;
+     padding-left:%;
+     margin-top: 30%;
    }
 
    #section5 h1 {
-     width:46%;
+     width:90%;
      text-align:left;
-     font-size: 225%;
+     font-size: 220%;
      display: block;
-     margin-left: 7%;
-     margin-top: 20%;
+     padding-left: 13%;
+     margin-top: 30%;
    }
      
     #section6 h1 {
@@ -321,6 +346,7 @@ p{
      text-align:left;
      font-size: 200%;
      display: block;
+        line-height: 0;
     }
     
     #section6 .col-lg-6 p{
@@ -328,16 +354,49 @@ p{
     }
     
      #section6 .largelogo{
-     width:50%;
+     width:20%;
     }
     
-    #section6 .icons {
-     width:50%;
-    }
+.icons .img-fluid{
+  max-width: 10%;
+  padding-top:3%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+    
+  #section6 .button{
+  border: 3px solid;
+  border-radius: 4em;
+  border-color: #C65030;
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  margin-top: 4%;
+                            
+  
+}
+#section6 .button li{
+    font-size: 12px;
+    line-height: 3.5;
+}
+    
 }
 
 
-@media (max-width:700px) {
+@media (max-width:650px){
+    #section5 h1{
+        text-align: left;
+    }
+    .icons .img-fluid{
+  max-width: 10%;
+  padding-top:3%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+}
+    
+
+@media (max-width:800px) {
 
    #section3 h1 {
      text-align:left;
@@ -348,25 +407,68 @@ p{
 
    #section5 h1 {
 
-     text-align:left;
      display: block;
      margin-left: 7%;
      font-size: 280%;
    }
+    
      #section6 .largelogo{
-     width:30%;
+     width:20%;
     }
+    
+    
+    .icons .img-fluid{
+  max-width: 10%;
+  padding-top:3%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+    
+    #section6 .button{
+  border: 3px solid;
+  border-radius: 4em;
+  border-color: #C65030;
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  margin-top: 5%;
+                            
+  
+}
+#section6 .button li{
+    font-size: 12px;
+    line-height: 3.5;
+}
+    
+    #section6  h1{
+        line-height: 0;
+    }
+
 }
 
 
-@media (max-width:850px) {
+@media (min-width:801px){
+  #section6 .largelogo{
+     width:20%;
+    }
+        #section6  h1{
+        line-height: 0;
+    }
+    .icons .img-fluid{
+  max-width: 5%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+}
 
-   section1 h1{
-    font-size: 280%;
-    padding-top:14%;
-   }
+
+@media (max-width:1199px) {
+
     #section6 .largelogo{
-     width:30%;
+     width:20%;
+    }
+     #section6  h1{
+        line-height: 0;
     }
 }
 
