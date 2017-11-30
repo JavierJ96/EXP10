@@ -35,7 +35,7 @@ li{
 
 #section1{
     align-items: center;
-    background: url(../images/exp-hero.jpg) fixed;
+    background: url(../images/exp-hero.jpg) no-repeat;
     background-position: right;
     background-size: cover;
     display: flex;
@@ -57,7 +57,7 @@ li{
 
 #section3{
     align-items: center;
-    background: url(../images/exp-interior.jpg) fixed no-repeat;
+    background: url(../images/exp-interior.jpg) no-repeat;
     background-position: center;
     display: flex;
     height: 100vh;
@@ -79,7 +79,7 @@ li{
 
 #section5{
     align-items: center;
-    background: url(../images/exp-steering.jpg) fixed no-repeat;
+    background: url(../images/exp-steering.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
