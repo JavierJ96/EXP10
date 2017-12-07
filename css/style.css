@@ -32,10 +32,46 @@ li{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+}
+
+nav{
+    align-items: center;
+    background-color: #C65030;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.orange-nav{
+    margin: 0px 5%;
+    width: 100%;  
+    text-align: center;
+}
+
+.orange-nav li{
+    display: inline-block;
+    width:24%;
+    text-align: center;
+}
+
+.nav-icon span{
+    background-color: white;
+    display: block;
+    height: 2px;
+    margin: 5px 0px;
+    width: 35px;
+    display: none;
+}
+
+
 
 #section1{
     align-items: center;
-    background: url(../images/exp-hero.jpg) no-repeat;
+    background: url(../images/exp-hero.jpg) no-repeat fixed;
     background-position: right;
     background-size: cover;
     display: flex;
@@ -57,7 +93,7 @@ li{
 
 #section3{
     align-items: center;
-    background: url(../images/exp-interior.jpg) no-repeat;
+    background: url(../images/exp-interior.jpg) no-repeat fixed;
     background-position: center;
     display: flex;
     height: 100vh;
@@ -79,7 +115,7 @@ li{
 
 #section5{
     align-items: center;
-    background: url(../images/exp-steering.jpg) no-repeat;
+    background: url(../images/exp-steering.jpg) no-repeat fixed;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -113,6 +149,7 @@ li{
 
 #section1 .text-container{
     padding: 0px;
+    padding: 0px 0px 100px 2%;
 }
 
 .headline-with-paragraph h2{
@@ -230,7 +267,12 @@ li{
     font-size: 10px;
 }
 
-
+:hover {
+    -o-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+}
 
 @media (max-width:500px){
     .headline-only-section h1{
@@ -264,12 +306,32 @@ li{
     #section1 .text-container{
         padding-top: 50px
     }
+    
+    #section1, #section3, #section5{
+        background-attachment: inherit;
+    }
+    
+    .orange-nav li{
+        display: none;
+    }
+    
+    .nav-icon span {
+        display: flex;
+    }
 }
 
-@media (width:320px){
+@media (max-width:320px){
     .headline-only-section h1{
         font-size: 2em;
         text-align: left;
     } 
+    
+    #section1 .text-container{
+        padding: 30px 0px;
+    }
+    
+    .text-container p {
+        font-size: 13px;
+    }
 }
 
